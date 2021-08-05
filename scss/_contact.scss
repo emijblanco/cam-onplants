@@ -1,0 +1,102 @@
+$background_titles: #7ad7a7;
+$font_color: #4d4d4f;
+$margen-izq: 20px;
+
+.body {
+  width: 70%;
+}
+
+.titulo-contacto {
+  color: #4d4d4f;
+  font-size: 36px;
+  font-weight: bold;
+  background-color: #7ad7a7;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  margin-bottom: 2%;
+}
+
+.section-contacto {
+  width: 70%;
+  margin: auto;
+}
+
+.testimonios {
+  width: auto;
+  margin: auto;
+  background-color: #7ad7a7;
+  font-size: 26px;
+  text-align: center;
+}
+
+@for $i from 1 through 3 {
+  .opinion-#{$i} {
+    width: 70%;
+    height: 100px;
+    color: #4d4d4f;
+    margin-top: 2%;
+  }
+}
+
+.opinion-1 {
+  font-size: 16px;
+  text-align: justify;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.opinion-2 {
+  font-size: 16px;
+  text-align: justify;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.opinion-3 {
+  font-size: 16px;
+  text-align: justify;
+  width: 70%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .section-contacto {
+    margin-top: 4%;
+    width: 70%;
+    margin: auto;  
+   
+  }
+
+  .col-12 {
+    display: grid;
+  }
+
+  .btn-primary {
+    margin-bottom: 5%;
+  }
+
+  .testimonios{
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+      
+  }
+.opinion-1  {
+  font-size: 10px;
+}
+.opinion-2  {
+  font-size: 10px;
+  margin-top: 2%;
+}
+.opinion-3  {
+  font-size: 10px;
+  margin-top: 7%;
+}
+.footer {
+  margin-top: 2%;
+}
+
+}

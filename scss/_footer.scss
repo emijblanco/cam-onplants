@@ -1,0 +1,37 @@
+footer {
+    width: 70%;
+    height: 12vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(13, 127, 165);
+    margin-top: 3%;
+  }
+  
+  .redes-sociales {
+    display: grid;
+    justify-content: flex-end;
+    width: 100%;
+    margin: auto;
+    list-style: none;
+  }
+
+  .logos {
+      text-decoration: none;
+      margin: auto;
+      padding: 0%;
+  }
+  
+  .whatsapp {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15%;
+    
+  }
+  
+  .ig {
+    height: 40px;
+    width: 40px;
+  }
+  
